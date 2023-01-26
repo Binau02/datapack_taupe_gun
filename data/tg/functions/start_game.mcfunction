@@ -11,3 +11,6 @@ spreadplayers 0 0 2000 1000 true @a
 # lance la reduction de bordure après 1h
 schedule function tg:reduce_border1 3600s
 #schedule function tg:reduce_border1 36s
+
+# choisi les taupes
+schedule function tg:mole_selection 1200s
