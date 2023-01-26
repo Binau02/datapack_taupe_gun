@@ -11,7 +11,8 @@ tag @a remove GRE_2
 tag @a remove PIN_2
 tag @a remove GRI_2
 tag @a remove MOLE_2
-
+scoreboard objectives remove teamcount
+scoreboard objectives add teamcount dummy 
 # tp les joueurs par équipe à 2000 blocs du centre, espacés de min 1000 blocs
 spreadplayers 0 0 2000 1000 true @a
 gamerule showDeathMessages false
@@ -24,6 +25,18 @@ tag @a[team=GRE] add GRE_2
 tag @a[team=PIN] add PIN_2
 tag @a[team=GRI] add GRI_2
 
+execute store result score RED_LEFT teamcount if entity @a[tag=RED_2]
+execute store result score BLU_LEFT teamcount if entity @a[tag=BLU_2]
+execute store result score YEL_LEFT teamcount if entity @a[tag=YEL_2]
+execute store result score GRE_LEFT teamcount if entity @a[tag=GRE_2]
+execute store result score PIN_LEFT teamcount if entity @a[tag=PIN_2]
+execute store result score GRI_LEFT teamcount if entity @a[tag=GRI_2]
+
+
+give @a cooked_beef 64
+give @a book 1
+give @a apple 16
+give @a compass 1
 
 
 # lance la reduction de bordure après 1h
