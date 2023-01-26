@@ -1,5 +1,7 @@
 #REVIVE
 tellraw @a [{"selector":"@s","color":"green"},{"text":" a été Revive ! Huez le tous :)","color":"yellow"}]
+gamemode survival @s
+effect give @s resistance 10 10
 
 #RED
 execute as @s run tp @r[team=RED]

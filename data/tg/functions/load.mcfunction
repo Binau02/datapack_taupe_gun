@@ -17,4 +17,13 @@ gamerule spawnRadius 0
 worldborder set 6000
 worldborder damage buffer 1
 
+scoreboard objectives remove spawn
+scoreboard objectives add spawn dummy
+scoreboard players set @a spawn 0
+
+scoreboard objectives remove nb_spawn
+scoreboard objectives add nb_spawn dummy
+scoreboard players set @a nb_spawn 0
+scoreboard players set nb_spawn nb_spawn 1
+
 say Le datapack taupe gun est load
