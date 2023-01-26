@@ -1,0 +1,21 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:written_book"
+              ],
+              "nbt": "{dusk_id:\"occult_lectern\"}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "dusk:adv/pick_occult_lectern"
+    }
+  }
+  

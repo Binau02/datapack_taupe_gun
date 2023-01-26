@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "ingredient": {
+        "tag": "dusk:altar_ingredients"
+    },
+    "result": "minecraft:air",
+    "experience": 0,
+    "cookingtime": 12000
+}

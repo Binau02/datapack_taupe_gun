@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "nbt": "{dusk_id:\"knife\"}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "dusk:adv/use_knife"
+    }
+  }
+  

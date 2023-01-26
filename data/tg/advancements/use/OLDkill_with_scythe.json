@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "items": [
+                  "minecraft:iron_axe"
+                ],
+                "nbt": "{dusk_id:\"scythe\"}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "dusk:adv/kill_with_scythe"
+    }
+  }
+  

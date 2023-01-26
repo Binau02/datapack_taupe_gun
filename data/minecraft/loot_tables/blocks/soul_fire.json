@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{dusk_id:\"soul\",CustomModelData:591001,display:{Name:'{\"text\":\"Soul\",\"italic\": false}'}}"
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "dusk:duskworld"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  

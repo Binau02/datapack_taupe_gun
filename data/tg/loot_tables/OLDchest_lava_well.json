@@ -1,0 +1,71 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 12,
+            "name": "minecraft:polished_basalt",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 3
+                }
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Petrified Wood",
+                  "italic": false
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:stone_pickaxe"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 12,
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 50,
+            "name": "minecraft:blackstone"
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 20,
+            "name": "minecraft:blaze_powder",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 0,
+                  "max": 4
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

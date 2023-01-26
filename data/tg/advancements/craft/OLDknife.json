@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "craft": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "dusk:knife"
+      }
+    }
+  },
+  "rewards": {
+    "function": "dusk:craft/knife"
+  }
+}
