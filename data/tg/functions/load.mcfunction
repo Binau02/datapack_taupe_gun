@@ -26,4 +26,6 @@ scoreboard objectives add nb_spawn dummy
 scoreboard players set @a nb_spawn 0
 scoreboard players set nb_spawn nb_spawn 1
 
+function tg:detect_spawn
+
 say Le datapack taupe gun est load
