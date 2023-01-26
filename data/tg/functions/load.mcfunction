@@ -6,5 +6,5 @@
 
 say hello
 
-schedule function dusk:schedule_1s 1s replace
-schedule function dusk:schedule_10s 10s replace
+# schedule function tg:schedule_1s 1s replace
+# schedule function tg:schedule_10s 10s replace
