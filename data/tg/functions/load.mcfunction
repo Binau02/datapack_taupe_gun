@@ -4,8 +4,6 @@
 # as: the sreveur
 # at: world spawn point
 
-say hello
-
 # schedule function tg:schedule_1s 1s replace
 # schedule function tg:schedule_10s 10s replace
 
@@ -22,3 +20,8 @@ setworldspawn 0 100 0
 gamerule spawnRadius 0
 
 worldborder set 6000
+worldborder damage buffer 1
+
+schedule function tg:reduce_border1 3600s
+
+say Le datapack taupe gun est load
