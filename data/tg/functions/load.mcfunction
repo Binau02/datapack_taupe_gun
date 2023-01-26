@@ -22,6 +22,7 @@ gamerule spawnRadius 0
 worldborder set 6000
 worldborder damage buffer 1
 
-schedule function tg:reduce_border1 3600s
+#schedule function tg:reduce_border1 3600s
+schedule function tg:reduce_border1 36s
 
 say Le datapack taupe gun est load
