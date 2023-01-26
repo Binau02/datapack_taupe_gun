@@ -5,4 +5,3 @@
  # Created by Binau.
 ##
 
-say zlfidjs
