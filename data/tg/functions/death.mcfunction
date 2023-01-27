@@ -39,3 +39,4 @@ execute unless entity @a[team=GRI] if entity @s[tag=GRI_2] run function tg:winte
 execute unless entity @a[tag=MOLE] if entity @s[tag=MOLE] run tellraw @a {"text":"Les taupes ont toute été éliminées !!!","bold":true,"underlined":true,"color":"#FF1313"}
 execute unless entity @a[tag=MOLE] if entity @s[tag=MOLE] run playsound minecraft:entity.wither.death ambient @a ~ ~ ~ 5 1.5
 execute unless entity @a[tag=MOLE] if entity @s[tag=MOLE] run function tg:wintest
+
