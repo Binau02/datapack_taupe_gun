@@ -5,8 +5,8 @@
  # Created by .
 ##
 
-say Le PVP commence dans
-say 5...
+tellraw @a "Le PVP commence dans"
+tellraw @a "5..."
 
 execute as @a at @s run playsound minecraft:block.note_block.guitar master @s ~ ~ ~ 1 1.5
 

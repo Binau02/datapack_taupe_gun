@@ -5,7 +5,7 @@
  # Created by .
 ##
 
-say 2...
+tellraw @a "2..."
 
 execute as @a at @s run playsound minecraft:block.note_block.guitar master @s ~ ~ ~ 1 1.5
 
