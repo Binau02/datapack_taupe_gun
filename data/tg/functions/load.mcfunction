@@ -31,6 +31,10 @@ scoreboard objectives remove nb_players
 scoreboard objectives add nb_players dummy
 execute store result score nb_players nb_players if entity @a
 
+scoreboard objectives remove game_advancement
+scoreboard objectives add game_advancement dummy
+scoreboard players set game_advancement game_advancement 0
+
 function tg:detect_spawn
 
 say Le datapack taupe gun est load

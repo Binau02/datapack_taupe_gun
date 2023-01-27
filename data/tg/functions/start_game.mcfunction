@@ -4,6 +4,9 @@
  #
  # Created by Binau.
 ##
+
+scoreboard players set game_advancement game_advancement 1
+
 tag @a remove RED_2
 tag @a remove BLU_2
 tag @a remove YEL_2
@@ -44,4 +47,7 @@ schedule function tg:reduce_border1 3600s
 #schedule function tg:reduce_border1 36s
 
 # choisi les taupes
-schedule function tg:mole_selection 1200s
+schedule function tg:start_pvp_phase 1200s
+
+# dire les messages
+schedule function tg:messages/pvp_5min 900s
