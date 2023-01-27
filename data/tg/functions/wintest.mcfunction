@@ -6,4 +6,4 @@ execute if entity @s[tag=PIN_2] run scoreboard players remove PIN_LEFT teamcount
 execute if entity @s[tag=GRI_2] run scoreboard players remove GRI_LEFT teamcount 1
 execute if entity @s[tag=MOLE] run scoreboard players remove MOLE_LEFT teamcount 1
 
-execute if score
+execute if score RED_LEFT teamcount matches
