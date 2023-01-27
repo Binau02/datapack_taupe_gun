@@ -20,6 +20,9 @@ worldborder damage buffer 1
 
 gamemode adventure @a
 
+function tg:team_gen
+
+
 scoreboard objectives remove spawn
 scoreboard objectives add spawn dummy
 scoreboard players set @a spawn 0
