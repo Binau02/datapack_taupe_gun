@@ -7,4 +7,4 @@
 
 say Le PVP est lancé !
 
-execute as @a run playsound minecraft:block.note_block.guitar master @s ~ ~ ~ 1 2
+execute as @a at @s run playsound minecraft:block.note_block.guitar master @s ~ ~ ~ 1 2
