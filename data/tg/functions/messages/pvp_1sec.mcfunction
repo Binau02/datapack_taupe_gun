@@ -5,7 +5,6 @@
  # Created by .
 ##
 
-
 say 1...
 
 playsound minecraft:block.note_block.guitar master @a ~ ~ ~ 1 2
