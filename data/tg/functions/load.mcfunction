@@ -24,7 +24,8 @@ scoreboard players set @a spawn 0
 scoreboard objectives remove nb_spawn
 scoreboard objectives add nb_spawn dummy
 scoreboard players set @a nb_spawn 0
-scoreboard players set nb_spawn nb_spawn 1
+#scoreboard players set nb_spawn nb_spawn 1
+execute store result score nb_spawn nb_spawn if entity @a
 
 function tg:detect_spawn
 

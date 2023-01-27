@@ -9,6 +9,6 @@ say spawn
 
 tag @s add known
 
-scoreboard players add nb_spawn nb_spawn 1
+execute store result score nb_spawn nb_spawn if entity @a
 scoreboard players operation @a spawn = nb_spawn nb_spawn
 
