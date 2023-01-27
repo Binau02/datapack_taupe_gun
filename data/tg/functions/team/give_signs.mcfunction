@@ -12,3 +12,4 @@ give @s minecraft:birch_sign{BlockEntityTag:{Text1:'{"text":"Join","clickEvent":
 give @s minecraft:birch_sign{BlockEntityTag:{Text1:'{"text":"Join","clickEvent":{"action":"run_command","value":"function tg:team/join_pin"}}',Text2:'{"text":"PINK","color":"light_purple"}',Text3:'{"text":"team"}'},display:{Name:'{"text":"pink"}'}}
 give @s minecraft:birch_sign{BlockEntityTag:{Text1:'{"text":"Join","clickEvent":{"action":"run_command","value":"function tg:team/join_gri"}}',Text2:'{"text":"GRAY","color":"gray"}',Text3:'{"text":"team"}'},display:{Name:'{"text":"gray"}'}}
 give @s minecraft:birch_sign{BlockEntityTag:{Text1:'{"text":"Leave","clickEvent":{"action":"run_command","value":"function tg:team/unjoin"}}',Text2:'{"text":"any"}',Text3:'{"text":"team"}'},display:{Name:'{"text":"unjoin"}'}}
+give @s glow_ink_sac
