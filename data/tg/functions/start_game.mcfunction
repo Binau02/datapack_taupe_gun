@@ -7,6 +7,10 @@
 
 scoreboard players set game_advancement game_advancement 1
 
+clear @a
+
+effect give @a resistance 10 255 true
+
 tag @a remove RED_2
 tag @a remove BLU_2
 tag @a remove YEL_2
@@ -52,3 +56,6 @@ schedule function tg:start_pvp_phase 1200s
 
 # dire les messages
 schedule function tg:messages/pvp_5min 900s
+
+#lancer la regen
+schedule function tg:regen 60s

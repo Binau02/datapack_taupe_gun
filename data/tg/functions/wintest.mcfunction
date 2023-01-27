@@ -14,4 +14,4 @@ execute if score PIN_LEFT teamcount matches 0 run scoreboard players remove team
 execute if score GRI_LEFT teamcount matches 0 run scoreboard players remove teamleft teamcount 1
 execute if score MOLE_LEFT teamcount matches 0 run scoreboard players remove teamleft teamcount 1
 
-execute if score 
+execute if score teamleft teamcount matches 1 if score RED_LEFT 

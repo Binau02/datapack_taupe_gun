@@ -11,6 +11,7 @@ gamerule doInsomnia false
 gamerule doPatrolSpawning false
 gamerule playersSleepingPercentage 101
 gamerule showDeathMessages false
+gamerule naturalRegeneration false
 
 setworldspawn 0 100 0
 gamerule spawnRadius 0
