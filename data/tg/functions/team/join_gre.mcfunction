@@ -1,5 +1,5 @@
 ##
- # join_red.mcfunction
+ # join_gre.mcfunction
  # 
  #
  # Created by Binau.
@@ -9,4 +9,4 @@
 
 tag @s add player
 
-team join RED
+team join GRE
