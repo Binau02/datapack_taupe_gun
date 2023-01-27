@@ -1,8 +1,8 @@
 ##
- # test.mcfunction
+ # pvp_0sec.mcfunction
  # 
  #
- # Created by .
+ # Created by Binau.
 ##
 
 say Le PVP est lancé !
