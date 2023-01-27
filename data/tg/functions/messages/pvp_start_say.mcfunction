@@ -1,5 +1,5 @@
 ##
- # pvp.mcfunction
+ # test.mcfunction
  # 
  #
  # Created by .
