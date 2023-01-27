@@ -6,4 +6,12 @@
 #execute if entity @s[tag=GRI_2] run scoreboard players remove GRI_LEFT teamcount 1
 #execute if entity @s[tag=MOLE] run scoreboard players remove MOLE_LEFT teamcount 1
 
-execute if score RED_LEFT teamcount matches
+execute if score RED_LEFT teamcount matches 0 run scoreboard players remove teamleft teamcount 1
+execute if score BLU_LEFT teamcount matches 0 run scoreboard players remove teamleft teamcount 1
+execute if score YEL_LEFT teamcount matches 0 run scoreboard players remove teamleft teamcount 1
+execute if score GRE_LEFT teamcount matches 0 run scoreboard players remove teamleft teamcount 1
+execute if score PIN_LEFT teamcount matches 0 run scoreboard players remove teamleft teamcount 1
+execute if score GRI_LEFT teamcount matches 0 run scoreboard players remove teamleft teamcount 1
+execute if score MOLE_LEFT teamcount matches 0 run scoreboard players remove teamleft teamcount 1
+
+execute if score 
