@@ -10,12 +10,15 @@ gamerule doFireTick false
 gamerule doInsomnia false
 gamerule doPatrolSpawning false
 gamerule playersSleepingPercentage 101
+gamerule showDeathMessages false
 
 setworldspawn 0 100 0
 gamerule spawnRadius 0
 
 worldborder set 6000
 worldborder damage buffer 1
+
+gamemode adventure @a
 
 scoreboard objectives remove spawn
 scoreboard objectives add spawn dummy
