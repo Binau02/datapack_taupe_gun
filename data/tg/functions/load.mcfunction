@@ -13,14 +13,14 @@ gamerule playersSleepingPercentage 101
 gamerule showDeathMessages false
 gamerule naturalRegeneration false
 
-setworldspawn 0 100 0
+setworldspawn 0 151 0
 gamerule spawnRadius 0
 
 worldborder set 6000
 worldborder damage buffer 1
 
 gamemode adventure @a
-
+difficulty easy
 function tg:team_gen
 
 

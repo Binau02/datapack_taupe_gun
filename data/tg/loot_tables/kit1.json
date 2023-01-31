@@ -1,0 +1,52 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_potion",
+            "id": "minecraft:invisibility"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:potion"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_potion",
+            "id": "minecraft:night_vision"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:milk_bucket"
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_apple"
+          }
+        ]
+      }
+    ]
+  }
